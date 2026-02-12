@@ -1,25 +1,27 @@
 body {
-    background: var(--bg-gradient);
-    height: 100vh;
-
+margin: 0;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    align-items: center;
-
-    /* Coloca o conteúdo no meio, da esquerda pra direita */
-    justify-content: center;
+    background-color: #f0f0f0; /* Um fundo cinza claro ajuda a ver os cards brancos */
 
     
 }
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
 
-.Card {
+
+
+
+.card-two, .card-one {
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    max-width: 600px;
+    max-width: 350px;
 
     padding: 40px 30px;
     border-radius: 20px;
@@ -32,6 +34,7 @@ body {
     gap: 15px;
 }
 
+
 .Contato {
     background-color:rgb(255, 255, 255);
     width: 70%;
@@ -40,5 +43,16 @@ body {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+a img{
+    width: 40px;
+    height: 40px;
+}
+
+.imagem-two {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
